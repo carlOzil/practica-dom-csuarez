@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-.borde {
-    border: 3px green;
-    background-color: purple;
+body {
+    margin: 20px
 }
+
+
+
