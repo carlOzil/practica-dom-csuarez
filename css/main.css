@@ -8,5 +8,32 @@ body {
     margin: 20px
 }
 
+img {
+    width: 100%;
 
+}
 
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+select {
+    width: 100%;
+}
+
+/* media queries */
+
+@media screen and (min-width:768px) {
+    
+    body {
+        margin: 100px;
+    }
+
+    figure {
+        display: inline-block;
+        width: 31%;
+        margin: 4px
+       
+    }
+}
